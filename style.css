@@ -1,0 +1,208 @@
+@charset "UTF-8";
+/* CSS Document */
+body{
+	margin:0;
+	padding:0;
+	background:url(immagini/elementi/tile.png) repeat;
+	font-family:'Open Sans', 'sans-serif';
+	font-size:14px;
+	color:#563c23;
+}
+#wrapper{
+	position: relative;
+	margin:20px auto;
+	margin-bottom:0;
+	width:1000px;
+	height:700px;
+	background-size:cover;
+	background-repeat: no-repeat;
+}
+/*STORIA*/
+#header, #nome{
+	font-family:'Berkshire Swash', 'cursive';
+	font-size:24px;
+	padding-left:10px;
+	color:#322214;
+}
+#nome, #cred {
+	position:absolute;
+	top:556px;
+	left:-680px;
+	padding:0;
+	color:#ffeab8;
+	font-size:38px;
+	cursor:pointer;
+}
+
+#nome:hover{
+	color:#A15142;
+}
+
+#cred{
+	color:#322214;
+	font-family:'Berkshire Swash', 'cursive';
+	font-size:24px;
+}
+#cred:hover{
+	color:#A15142;
+}
+
+#scritte{
+	width:250px;
+	position:absolute;
+	top:40px;
+	right:19px;
+}
+#content{
+	margin:0 10px;
+	margin-bottom:20px;
+}
+#immagine{
+	width:635px;
+	height:614px;
+	background-size:cover;
+	background-repeat: no-repeat;
+	position:absolute;
+	bottom:38px;
+	left:34px;
+	z-index:-5;
+}
+#pulsanti{
+	position: absolute;
+	top:50px;
+	left:50px;
+}
+.sul{
+  cursor:pointer;
+  position:absolute;
+}
+.puls{
+	display:inline;
+}
+.scelte{
+  color:black;
+  cursor: pointer;
+  font-weight: 600;
+	font-size:16px;
+	padding-left:10px;
+}
+.scelte:hover{
+	color:#A15142;
+}
+#sci{
+  top:265px;
+  left:-449px;
+}
+#lam{
+  top:273px;
+  left:-356px;
+}
+#rub{
+  top:274px;
+  left:-236px;
+}
+/*GIOCO*/
+#gioco1, #gioco2{
+	position:absolute;
+	top:46px;
+	left:224px;
+}
+/*MEMORY*/
+#memory_board{
+	position:absolute;
+	top:57px;
+	left:232px;
+	width:592px;
+	height:592px;
+}
+#memory_board > div[id^=tile]{
+	background:url("immagini/gioco_3/back.png") no-repeat !important;
+	background-size:cover;
+	width:125px;
+	height:125px;
+	float:left;
+	margin:10px;
+	cursor:pointer;
+}
+.tile{
+	width: 100%;
+	height: 100%;
+}
+#chrono1
+{
+	position:absolute !important;
+	top:26px !important;
+	left:-170px !important;
+	font-family:'Open Sans', 'sans-serif';
+	font-size:30px;
+	font-weight:700;
+}
+#chrono.counter
+{
+	color:#322214;
+	margin:0;
+	padding:0;
+}
+/*IMMAGINI CARTE*/
+.A{
+	background:url("immagini/gioco_3/01.png") no-repeat;
+	background-size:cover;
+}
+.B{
+	background:url("immagini/gioco_3/02.png") no-repeat;
+	background-size:cover;
+}
+.C{
+	background:url("immagini/gioco_3/03.png") no-repeat;
+	background-size:cover;
+}
+.D{
+	background:url("immagini/gioco_3/04.png") no-repeat;
+	background-size:cover;
+}
+.E{
+	background:url("immagini/gioco_3/05.png") no-repeat;
+	background-size:cover;
+}
+.F{
+	background:url("immagini/gioco_3/06.png") no-repeat;
+	background-size:cover;
+}
+.G{
+	background:url("immagini/gioco_3/07.png") no-repeat;
+	background-size:cover;
+}
+.H{
+	background:url("immagini/gioco_3/08.png") no-repeat;
+	background-size:cover;
+}
+/*BOTTONI*/
+img{
+	cursor:pointer;
+}
+/*MAPPA*/
+.attr{
+	position:absolute;
+	font-weight:700;
+	font-size:18px;
+	cursor:pointer;
+}
+.attr:hover{
+	color:#A15142;
+}
+#uno{top:200px; left:142px;}
+#due{top:68px; left:306px;}
+#tre{top:200px; left:308px;}
+#qua{top:322px; left:210px;}
+#cin{top:321px; left:426px;}
+#sei{top:453px; left:310px;}
+#set{top:453px; left:425px;}
+#ott{top:453px; left:548px;}
+#nov{top:200px; left:484px;}
+#die{top:200px; left:643px;}
+#und{top:200px; left:798px;}
+#dod{top:321px; right:243px;}
+#trd{top:453px; right:157px;}
+#qut{top:321px; right:90px;}
+#qui{top:590px; right:157px;}
+#sec{top:590px; right:322px;}

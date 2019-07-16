@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Alì Babà e i 40 ladroni</title>
+      <link rel="stylesheet" href="style.css">
+      <script src="phaser.min.js"></script>
+    	<script src="gioco1.js"></script>
+    	<script src="gioco2.js"></script>
+      <link href="https://fonts.googleapis.com/css?family=Berkshire+Swash|Open+Sans:400,600&amp;subset=latin-ext" rel="stylesheet">
+</head>
+<body>
+    <div id="wrapper">
+
+    <!--PULSANTI-->
+    <div id="pulsanti">
+		<img src="immagini/elementi/btn_map@2x.png" id="icon_map">
+		<img src="immagini/elementi/btn_cop@2x.png" id="icon_cop">
+    <img src="immagini/elementi/btn_aut@2x.png" class="puls" id="icon_aut">
+    <img src="immagini/elementi/btn_credits@2x.png" class="puls" id="icon_cre">
+    </div>
+    <!--MAPPA-->
+    <div id="mappa" class="codemappa" style="display:none">
+		<span id="uno" class="attr">000</span>
+		<span id="due" class="attr">010</span>
+		<span id="tre" class="attr">020</span>
+		<span id="qua" class="attr">030</span>
+		<span id="cin" class="attr">040</span>
+		<span id="sei" class="attr">050</span>
+		<span id="set" class="attr">060</span>
+		<span id="ott" class="attr">070</span>
+		<span id="nov" class="attr">080</span>
+		<span id="die" class="attr">090</span>
+		<span id="und" class="attr">100</span>
+		<span id="dod" class="attr">110</span>
+		<span id="trd" class="attr">120</span>
+		<span id="qut" class="attr">130</span>
+		<span id="qui" class="attr">140</span>
+    <span id="sec" class="attr">150</span>
+
+    </div>
+     <!--STORIA-->
+      <div id="immagine"></div>
+      <div id="scritte">
+      <h1 id="header"></h1>
+		  <div id="content"></div>
+		  <div id="left" class="scelte"></div>
+		  <div id="center" class="scelte"></div>
+		  <div id="right" class="scelte"></div>
+      <div id="nome"></div>
+      <div id="cred" class="pro" style="display:none"></div>
+      <img src="immagini/elementi/scimitarra.png" class="sul" id="sci" style="display:none">
+      <img src="immagini/elementi/lampada.png" class="sul" id="lam" style="display:none">
+      <img src="immagini/elementi/rubino.png" class="sul" id="rub" style="display:none">
+      </div>
+    <!--GIOCHI-->
+      <div id="gioco1" class="game" style="display:none"></div>
+      <div id="gioco2" class="game" style="display:none"></div>
+      <div id="memory_board" class="game" style="display:none">
+		  <script src="memory.js"></script></div>
+	</div>
+
+    <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>
